@@ -1,9 +1,83 @@
 [
     {
         "images": [
-			"https://m.media-amazon.com/images/I/71k1W7sncPL._SX522_.jpg"
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Cocopeat.png?raw=true"
 		],
         "name":"Cocopeat",
+        "price":799
+    },
+    {
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Epsom%20Salt.png?raw=true"
+		],
+        "name":"Epsom Salt",
+        "price":799
+    },
+    {
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Vermi%20Compost.png?raw=true"
+		],
+        "name":"Vermi Compost",
+        "price":799
+    },{
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Cocopeat.png?raw=true"
+		],
+        "name":"Cocopeat",
+        "price":799
+    },
+    {
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Epsom%20Salt.png?raw=true"
+		],
+        "name":"Epsom Salt",
+        "price":799
+    },
+    {
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Vermi%20Compost.png?raw=true"
+		],
+        "name":"Vermi Compost",
+        "price":799
+    },{
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Cocopeat.png?raw=true"
+		],
+        "name":"Cocopeat",
+        "price":799
+    },
+    {
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Epsom%20Salt.png?raw=true"
+		],
+        "name":"Epsom Salt",
+        "price":799
+    },
+    {
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Vermi%20Compost.png?raw=true"
+		],
+        "name":"Vermi Compost",
+        "price":799
+    },{
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Cocopeat.png?raw=true"
+		],
+        "name":"Cocopeat",
+        "price":799
+    },
+    {
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Epsom%20Salt.png?raw=true"
+		],
+        "name":"Epsom Salt",
+        "price":799
+    },
+    {
+        "images": [
+			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Vermi%20Compost.png?raw=true"
+		],
+        "name":"Vermi Compost",
         "price":799
     }
 ]
