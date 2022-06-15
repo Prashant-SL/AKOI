@@ -1,13 +1,14 @@
 const mongoose = require('mongoose');
 const cartSchema = new mongoose.Schema(
     {
-        images: [{ type: String, required: true }],
+        id: { type: String, required: false },
+        images: { type: String, required: true },
         name: { type: String, required: true },
         price: { type: String, required: true },
     },
     {
-        versionKey: false, // removed __v
-        timestamps: true, // createdAt, updatedAt
+        versionKey: false,
+        timestamps: true,
     }
 );
 
