@@ -1,50 +1,55 @@
-#addToCart{
-    width: 100%;
-    font-size: 95%;
-    background: #81BB3F;
-    cursor: pointer;
-    box-shadow: 5px 4px 38px -17px rgba(0, 0, 0, 0.25);
-    border-radius: 49px;
-    padding: 2.2% 2%;
-    color: white;
-    letter-spacing: 1px;
-    border: 0px transparent solid;
-    margin-top: 8%;
-    margin-bottom: 12%;
+#addToCart {
+	width: 100%;
+	font-size: 95%;
+	background: #81bb3f;
+	cursor: pointer;
+	box-shadow: 5px 4px 38px -17px rgba(0, 0, 0, 0.25);
+	border-radius: 49px;
+	padding: 2.2% 2%;
+	color: white;
+	letter-spacing: 1px;
+	border: 0px transparent solid;
+	margin-top: 8%;
+	margin-bottom: 12%;
 }
 
-#cardBottom{
-    margin: auto; display: grid; margin-bottom: 10%;
+#cardBottom {
+	margin: auto;
+	display: grid;
+	margin-bottom: 10%;
 }
 
-.cardName{
-        margin: 4% 0 1.5% 0;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 90%;
-        text-align: center;
-        color: #81BB3F
+.cardName {
+	margin: 4% 0 1.5% 0;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 90%;
+	text-align: center;
+	color: #81bb3f;
 }
 
-.cardPrice>{
-        margin: 2% auto;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 150%;
-        text-align: center;
-        color: #333333;
-        margin-bottom: 10%;
+.cardPrice {
+	margin: 8% auto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 150%;
+	text-align: center;
+	color: #333333;
+	margin-bottom: 10%;
 }
-#cardTop{
-    display: flex; justify-content: space-between;
-    width: 90%; margin: auto; padding-top: 4%;
-    align-content: center;
+#cardTop {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+	padding-top: 4%;
+	align-content: center;
 }
 
-#fullCard{
-        background: #FFFFFF;
-        display: grid;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border-radius:  49px;
-        width: 100%;
+#fullCard {
+	background: #ffffff;
+	display: grid;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	border-radius: 49px;
+	width: 100%;
 }

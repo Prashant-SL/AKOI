@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 const Cart = () => {
     var [state, setState] = useState([]);
+    const dispatch = useDispatch();
     const fetchCart = async () => {
         let response = await axios.get('http://localhost:4500/cart');
         let resp = response.data;
@@ -17,8 +18,6 @@ const Cart = () => {
         fetchCart();
     }, []);
     var result = useSelector((state) => state.cartReducer.cart);
-    console.log('result:', result)
-    const dispatch = useDispatch();
     return (
         <div>
             <Navbar />
@@ -43,7 +42,9 @@ const Cart = () => {
                     )
                 })
             }
-            <button class="button-25" role="button">Buy Now</button>
+            <button class="button-25" onClick={() => {
+                alert("Purchase Successful")
+            }}>Buy Now</button>
         </div >
     )
 }
