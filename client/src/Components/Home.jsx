@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setCart } from '../Redux/actions/cartActions';
 import axios from 'axios';
 import Sidebar from './Sidebar';
+import ProductCard from './ProductCard';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -124,20 +125,36 @@ const Home = () => {
         //         })}
         //     </div>
         // </div>
-        <>
-            {/* <Sidebar /> */}
-            <>
-                {data.map((e) => {
-                    return (
-                        <>
-                            <img src={e.images} />
-                            <h1>{e.name}</h1>
-                        </>
-                    )
-                })}
-            </>
+        <div>
 
-        </>
+            <div style={{ display: "flex" }}>
+                <div style={{ width: "28%" }}>
+                    <Sidebar />
+                </div>
+                <div style={{ marginTop: "2%", display: "flex", width: "65%", flexWrap: "wrap", gap: "2.5%", justifyContent: "space-evenly" }}>
+                    {data.map((e) => {
+                        return (
+                            <ProductCard name={e.name} price={e.price} image={e.image} id={e._id} />
+                        )
+                    })}
+                </div>
+            </div>
+            <div style={{ margin: "auto", justifyContent: "center", display: "flex", gap: "35px", }}>
+                <p style={{ backgroundColor: "#81BB3F", padding: ".4% .8%", fontSize: "90%", borderRadius: "30px", color: "white" }}>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+            </div>
+            <div style={{
+                margin: "auto", width: "88%", display: "grid", height: "250px",
+                borderRadius: "37px", backgroundRepeat: "no-repeat", backgroundSize: "cover",
+                background: "url(https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/image_2022-06-14_15-09-55.png)"
+            }}>
+                <img style={{ margin: "auto", width: "30%", marginTop: "-9%" }} width="50%" src="https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/image_2022-06-14_15-05-39.png?raw=true" />
+            </div>
+        </div>
     );
 };
 

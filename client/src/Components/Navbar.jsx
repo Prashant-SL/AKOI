@@ -41,12 +41,12 @@ const Navbar = () => {
                 </div>
             </div>
             <div style={{
-                margin: "auto", width: "90%", display: "grid",
-                height: "445px", borderRadius: "37px", backgroundRepeat: "no-repeat",
-                backgroundSize: "contain", background: "url(https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/image_2022-06-14_15-04-45.png?raw=true)"
+                margin: "auto", width: "88%", display: "grid", height: "370px",
+                borderRadius: "37px", backgroundRepeat: "no-repeat", backgroundSize: "contain",
+                background: "url(https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/image_2022-06-14_15-04-45.png?raw=true)"
             }}>
                 <img style={{ margin: "auto", width: "50%", marginTop: "4%" }} width="50%" src="https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/image_2022-06-14_15-05-26.png?raw=true" />
-                <img style={{ margin: "auto", width: "30%", marginTop: "-14%" }} width="50%" src="https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/image_2022-06-14_15-05-39.png?raw=true" />
+                <img style={{ margin: "auto", width: "30%", marginTop: "-9%" }} width="50%" src="https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/image_2022-06-14_15-05-39.png?raw=true" />
             </div>
         </div >
     )
