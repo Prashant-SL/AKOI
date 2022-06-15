@@ -1,0 +1,35 @@
+#sidebarContainer{
+        width: 20%; 
+        border-radius: 30px;
+        position: absolute; 
+        display: grid;
+        margin-top: 3%; 
+        margin-left: 5%
+}
+
+#sidebarContainer>span{
+        margin-left: 5%;
+        font-weight: bold;
+}
+
+#listDiv1{
+        background: #F9F9F9;
+        border-radius: 30px;
+        padding: 5% 7%;
+        margin-bottom: 5%;
+        margin-top: 2%
+}
+#listDiv2, #listDiv3{
+        background: #F9F9F9;
+        border-radius: 30px;
+        padding: 5% 7;
+        margin-bottom: 5%;
+        margin-top: 2%;
+        padding: 5% 7%;
+}
+#listDiv1>p:nth-child(1),#listDiv2>p:nth-child(1),#listDiv3>p:nth-child(1){
+                background-color: #81BB3F;
+                padding: 1.3% 3%; font-size: 90%;
+                border-radius: 30px;
+                 color: white
+}

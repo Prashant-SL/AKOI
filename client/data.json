@@ -1,82 +1,94 @@
 [
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Cocopeat.png?raw=true"
-		],
+        "id":1,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Cocopeat.png"
+		,
         "name":"Cocopeat",
         "price":799
     },
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Epsom%20Salt.png?raw=true"
-		],
+        "id":2,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Epsom%20Salt.png"
+		,
         "name":"Epsom Salt",
         "price":799
     },
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Vermi%20Compost.png?raw=true"
-		],
+        "id":3,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Vermi%20Compost.png"
+		,
         "name":"Vermi Compost",
         "price":799
     },{
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Cocopeat.png?raw=true"
-		],
+        "id":4,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Cocopeat.png"
+		,
         "name":"Cocopeat",
         "price":799
     },
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Epsom%20Salt.png?raw=true"
-		],
+        "id":5,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Epsom%20Salt.png"
+		,
         "name":"Epsom Salt",
         "price":799
     },
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Vermi%20Compost.png?raw=true"
-		],
+        "id":6,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Vermi%20Compost.png"
+		,
         "name":"Vermi Compost",
         "price":799
     },{
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Cocopeat.png?raw=true"
-		],
+        "id":7,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Cocopeat.png"
+		,
         "name":"Cocopeat",
         "price":799
     },
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Epsom%20Salt.png?raw=true"
-		],
+        "id":8,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Epsom%20Salt.png"
+		,
         "name":"Epsom Salt",
         "price":799
     },
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Vermi%20Compost.png?raw=true"
-		],
+        "id":9,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Vermi%20Compost.png"
+		,
         "name":"Vermi Compost",
         "price":799
     },{
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Cocopeat.png?raw=true"
-		],
+        "id":10,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Cocopeat.png"
+		,
         "name":"Cocopeat",
         "price":799
     },
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Epsom%20Salt.png?raw=true"
-		],
+        "id":11,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Epsom%20Salt.png"
+		,
         "name":"Epsom Salt",
         "price":799
     },
     {
-        "images": [
-			"https://github.com/Prashant-SL/AKOI/blob/main/client/public/assets/Vermi%20Compost.png?raw=true"
-		],
+        "id":12,
+        "images":
+			"https://raw.githubusercontent.com/Prashant-SL/AKOI/main/client/public/assets/Vermi%20Compost.png"
+		,
         "name":"Vermi Compost",
         "price":799
     }
